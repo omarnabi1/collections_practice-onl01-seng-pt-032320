@@ -27,4 +27,4 @@ def reverse_array (integer)
   new_array = integer.reverse
   new_array
 end
-array
+integer(["12", "4", "35"])
