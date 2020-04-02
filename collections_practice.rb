@@ -8,3 +8,5 @@
  end
  sort_array_desc ([25, 7, 1])
    
+def sort_array_char_count(array)
+  array.sort
