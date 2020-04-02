@@ -43,4 +43,9 @@ def find_a(array)
 end
 find_a(["apple", "orange", "pear", "avis", "arlo", "ascot"])
 
+def sum_array(array)
+  array.inject{|sum, n| sum + n}
+end
+sum_array(["11", "4", "7", "8", "9", "100", "134"])
+
   
