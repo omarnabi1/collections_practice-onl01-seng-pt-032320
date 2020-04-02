@@ -12,3 +12,8 @@ def sort_array_char_count(array)
   array.sort {|left, right| left.length <=> right.length}
 end
 sort_array_char_count(["dogs", "cat", "horse"])
+
+def swap_elements(array)
+  array[1], array[2] = array[2], array[1]
+  return array
+end
