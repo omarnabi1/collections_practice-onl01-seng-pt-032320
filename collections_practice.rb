@@ -48,4 +48,14 @@ def sum_array(array)
 end
 sum_array(["11", "4", "7", "8", "9", "100", "134"])
 
+def add_s (array)
+  array.each_with_index.collect do |string, index|
+    if index == 1 
+      string
+    else
+      string << "s"
+    end
+  end
+end
+
   
